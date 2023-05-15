@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lillik\PriceDecimal\Model\Plugin;
+namespace Salecto\PriceDecimal\Model\Plugin;
 
 class Currency extends PriceFormatPluginAbstract
 {
@@ -16,7 +16,7 @@ class Currency extends PriceFormatPluginAbstract
      * @return array
      */
     public function beforeToCurrency(
-        \Lillik\PriceDecimal\Model\Currency $subject,
+        \Salecto\PriceDecimal\Model\Currency $subject,
         ...$arguments
     ) {
         if ($this->getConfig()->isEnable()) {

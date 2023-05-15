@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Lillik\PriceDecimal\Ui\DataProvider\Product\Modifier;
+namespace Salecto\PriceDecimal\Ui\DataProvider\Product\Modifier;
 
 use Magento\Catalog\Model\Locator\LocatorInterface;
 use Magento\Catalog\Ui\DataProvider\Product\Form\Modifier\AbstractModifier;
 use Magento\Framework\App\Request\DataPersistorInterface;
 use Magento\Framework\Pricing\PriceCurrencyInterface;
-use Lillik\PriceDecimal\Model\ConfigInterface;
-use Lillik\PriceDecimal\Model\PricePrecisionConfigTrait;
+use Salecto\PriceDecimal\Model\ConfigInterface;
+use Salecto\PriceDecimal\Model\PricePrecisionConfigTrait;
 
 class Price extends AbstractModifier
 {

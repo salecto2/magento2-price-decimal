@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lillik\PriceDecimal\Model;
+namespace Salecto\PriceDecimal\Model;
 
 interface ConfigInterface
 {

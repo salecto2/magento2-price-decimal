@@ -1,10 +1,13 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
+        <tab id="salecto" translate="label" sortOrder="1">
+            <label>Salecto</label>
+        </tab>
         <section id="catalog_price_decimal" translate="label" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="0">
-            <tab>catalog</tab>
-            <resource>Lillik_PriceDecimal::config</resource>
-            <label>Simple Price Decimal (Precision)</label>
+            <resource>Salecto_PriceDecimal::config</resource>
+            <label>Simple Price Decimal</label>
+            <tab>salecto</tab>
             <group id="general" translate="label" type="text" sortOrder="400" showInDefault="1" showInWebsite="1" showInStore="0">
                 <label>General</label>
                 <field id="enable" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="0">
@@ -23,9 +26,9 @@
                     <depends>
                         <field id="*/*/enable">1</field>
                     </depends>
-                    <source_model>Lillik\PriceDecimal\Block\System\Config\Form\Field\Precision</source_model>
+                    <source_model>Salecto\PriceDecimal\Block\System\Config\Form\Field\Precision</source_model>
                 </field>
-        </group>
+            </group>
         </section>
     </system>
 </config>
