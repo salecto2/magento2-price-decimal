@@ -1,5 +1,5 @@
 {
-    "name": "lillik/magento2-price-decimal",
+    "name": "salecto2/magento2-price-decimal",
     "description": "Magento 2 Price Decimal Precision",
     "keywords": [
         "magento2"
@@ -25,7 +25,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Lillik\\PriceDecimal\\": ""
+            "Salecto\\PriceDecimal\\": ""
         }
     }
 }

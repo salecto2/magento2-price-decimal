@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Lillik\PriceDecimal\Model\Plugin\Local;
+namespace Salecto\PriceDecimal\Model\Plugin\Local;
 
-use Lillik\PriceDecimal\Model\Plugin\PriceFormatPluginAbstract;
+use Salecto\PriceDecimal\Model\Plugin\PriceFormatPluginAbstract;
 
 class Format extends PriceFormatPluginAbstract
 {

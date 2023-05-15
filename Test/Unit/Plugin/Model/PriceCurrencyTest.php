@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Lillik\PriceDecimal\Test\Unit\Plugin\Model;
+namespace Salecto\PriceDecimal\Test\Unit\Plugin\Model;
 
-use Lillik\PriceDecimal\Model\ConfigInterface;
-use Lillik\PriceDecimal\Model\Plugin\PriceCurrency;
+use Salecto\PriceDecimal\Model\ConfigInterface;
+use Salecto\PriceDecimal\Model\Plugin\PriceCurrency;
 use Magento\Framework\TestFramework\Unit\Helper\ObjectManager;
 
 class PriceCurrencyTest extends \PHPUnit\Framework\TestCase

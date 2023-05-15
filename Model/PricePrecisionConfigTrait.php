@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Lillik\PriceDecimal\Model;
+namespace Salecto\PriceDecimal\Model;
 
 trait PricePrecisionConfigTrait
 {
 
 
     /**
-     * @return \Lillik\PriceDecimal\Model\ConfigInterface
+     * @return \Salecto\PriceDecimal\Model\ConfigInterface
      */
     public function getConfig()
     {
