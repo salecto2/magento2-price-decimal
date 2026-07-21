@@ -6,6 +6,7 @@ namespace Salecto\PriceDecimal\Model;
 
 interface ConfigInterface
 {
+
     /**
      * @return \Magento\Framework\App\Config\ScopeConfigInterface
      */

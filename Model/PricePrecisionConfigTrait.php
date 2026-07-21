@@ -7,7 +7,6 @@ namespace Salecto\PriceDecimal\Model;
 trait PricePrecisionConfigTrait
 {
 
-
     /**
      * @return \Salecto\PriceDecimal\Model\ConfigInterface
      */
