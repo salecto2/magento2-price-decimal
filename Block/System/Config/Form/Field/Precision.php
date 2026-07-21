@@ -4,8 +4,9 @@ declare(strict_types=1);
 
 namespace Salecto\PriceDecimal\Block\System\Config\Form\Field;
 
+use Magento\Framework\Data\OptionSourceInterface;
 
-class Precision implements \Magento\Framework\Option\ArrayInterface
+class Precision implements OptionSourceInterface
 {
 
     /**
