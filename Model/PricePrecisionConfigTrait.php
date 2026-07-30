@@ -7,7 +7,6 @@ namespace Salecto\PriceDecimal\Model;
 trait PricePrecisionConfigTrait
 {
 
-
     /**
      * @return \Salecto\PriceDecimal\Model\ConfigInterface
      */
@@ -22,7 +21,7 @@ trait PricePrecisionConfigTrait
     public function getPricePrecision()
     {
         if ($this->getConfig()->canShowPriceDecimal()) {
-            return $this->getConfig()->getPricePrecision();
+            return (int) $this->getConfig()->getPricePrecision();
         }
 
         return 0;
